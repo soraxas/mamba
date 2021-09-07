@@ -3,10 +3,10 @@ name: Linters (Python, C++)
 on:
   push:
    branches:
-     - master
+     - test-gh-action
   pull_request:
     branches:
-     - master
+     - test-gh-action
 
 jobs:
   build:
